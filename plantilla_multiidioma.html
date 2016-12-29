@@ -1,0 +1,34 @@
+<script crossorigin="anonymous" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+function changeText(myMessage) {
+if (myMessage=='english'){
+$("#english_text").show();
+$("#spanish_text").hide();
+}
+
+if (myMessage=='spanish'){
+$("#spanish_text").show();
+$("#english_text").hide();
+}
+}
+
+$( document ).ready(function() {
+    $("#english_text").hide();
+});
+</script>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: right;">
+<a href="javascript:changeText('english')" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://icones.pro/es/go.php?http://icdn.pro/images/es/b/a/bandera-gran-bretana-uk-reino-unido-icono-8670-16.png" /></a><a href="javascript:changeText('spanish')" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://icones.pro/es/go.php?http://icdn.pro/images/es/b/a/bandera-de-espana-icono-6788-16.png" /></a></div>
+<div id="spanish_text">
+<div class="separator" style="clear: both; text-align: left;">
+TEXTO EN ESPAÑOL</div>
+<br/>
+</div>
+<div id="english_text">
+<div class="separator" style="clear: both; text-align: left;">
+TEXT IN ENGLISH</div>
+</div>
