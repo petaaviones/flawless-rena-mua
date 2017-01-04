@@ -7,7 +7,7 @@ This is the repository where all the files, templates, images and configurations
 
 To use the code present in this HTML and that all your entries can be written in two languages English and Spanish, it is only necessary to add the code in the section Settings> Entries, comments ...> Entry template
 
-How to Use *rainbow_favicon.gif*
+## How to Use *rainbow_favicon.gif*
 
 To use a favicon or this image as a favicon just go to the section Design> Favicon> Edit
 
