@@ -16,3 +16,5 @@ To use a favicon or this image as a favicon just go to the section Design> Favic
 Special mentions to these links that served as reference and help.
 * https://dl.dropboxusercontent.com/u/10829748/multi_lenguaje_blogger.txt
 * https://www.youtube.com/watch?v=q03CdLZMRwU
+* http://www.aprendeycomparte.com/2014/03/toda-una-tarde-si-eso-es-lo-que-me-ha.html
+
