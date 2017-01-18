@@ -19,4 +19,6 @@ Special mentions to these links that served as reference and help.
 * http://www.aprendeycomparte.com/2014/03/toda-una-tarde-si-eso-es-lo-que-me-ha.html
 * https://www.iconfinder.com
 * http://personalizaciondeblogs.blogspot.com.es/2013/03/como-poner-un-boton-de-subir-arriba.html
+* http://www.iconspedia.com/
+* https://commons.wikimedia.org
 
