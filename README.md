@@ -11,6 +11,14 @@ To use the code present in this HTML and that all your entries can be written in
 
 To use a favicon or this image as a favicon just go to the section Design> Favicon> Edit
 
+## How to Use *top_button_quick_scroll_up.html* and *creative_common_license.html*
+
+To use this functionality it is only necessary to add the HTML / Javascript gadget in the Design area> Footer and paste the code inside the window that opens.
+
+## How to Use *follow_in_social_media.html*
+
+To use this functionality it is only necessary to add the HTML / Javascript gadget in the Design> Sidebar area and paste the code inside the window that opens.
+
 ## Links
 
 Special mentions to these links that served as reference and help.
