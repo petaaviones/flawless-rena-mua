@@ -1,27 +1,13 @@
-function cambioTexto(message, obj) {
-        if (message=='ingles'){
-          alert(message);
-        }
-        
-        if (message=='espanyol'){
-          alert(message);
-        }
-        
-        alert($(this).parent().html());
-        
-  /*      var a = $(obj).parent();
-        var b = $(a).parent();
-        $.each(a[0], function(key,value){
-          if (key=='id'){
-            alert(value);
-          }
-        });
+$(document).ready(function() {
+  $('.texto_ingles').hide();
+  $('.banderas > a').click(function() {
+    changeLanguage($(this).attr("class"), $(this));
+  });
+});
 
-        $.each(b[0], function(key,value){
-          if (key=='id'){
-            alert(value);
-          }
-        });
-        alert($(b).attr('id'));
-        alert($(b).innerHTML);*/
-      }
+function changeLanguage(lang, obj) {
+  var parent = obj.closest('.father');
+
+  parent.find('.contenido > div').hide();
+  parent.find('.texto_' + lang).show();
+}
