@@ -1,34 +1,14 @@
-<script crossorigin="anonymous" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script type="text/javascript">
-function changeText(myMessage) {
-if (myMessage=='english'){
-$("#english_text").show();
-$("#spanish_text").hide();
-}
-
-if (myMessage=='spanish'){
-$("#spanish_text").show();
-$("#english_text").hide();
-}
-}
-
-$( document ).ready(function() {
-    $("#english_text").hide();
-});
-</script>
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: right;">
-<a href="javascript:changeText('english')" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://github.com/petaaviones/renas-world-blog/blob/master/images/flags/United_Kingdom-32.png?raw=true" /></a><a href="javascript:changeText('spanish')" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://github.com/petaaviones/renas-world-blog/blob/master/images/flags/Spain-32px.png?raw=true" /></a></div>
-<div id="spanish_text">
-<div class="separator" style="clear: both; text-align: left;">
-TEXTO EN ESPAÑOL</div>
-<br/>
-</div>
-<div id="english_text">
-<div class="separator" style="clear: both; text-align: left;">
-TEXT IN ENGLISH</div>
+<div class="father">
+    <div class="banderas" style="clear: both; text-align: right;">
+      <a href="javascript:;" class="ingles" ><img border="0" src="https://raw.githubusercontent.com/petaaviones/renas-world-blog/master/images/flags/United_Kingdom-32.png" /></a>
+      <a href="javascript:;" class="espanol"><img border="0" src="https://raw.githubusercontent.com/petaaviones/renas-world-blog/master/images/flags/Spain-32px.png" /></a>
+    </div>
+    <div class="contenido" style="clear: both; margin-top: 10px;">
+        <div class="texto_espanol">
+          TEXTO EN ESPAÑOL
+        </div>
+      <div class="texto_ingles">
+          ENGLISH TEXT
+        </div>
+    </div>
 </div>
